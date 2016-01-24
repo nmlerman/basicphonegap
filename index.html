@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme.css" />
+        <title>Foobar Web Design</title>
+    </head>
+    <body>
+        <div class="app">   
+           
+           <div data-role="page" id="home"> 
+                    
+                <header data-role="header">
+                        <h1>FooBar Web Design</h1> 
+                </header>    
+                
+                <div data-role="content">
+                   <nav data-role="navbar">
+                        <ul>
+                            <li>
+                                <a href="#home" class="ui-btn-active">home</a>
+                            </li>
+                            <li>
+                                <a href="#about">about</a>
+                            </li>
+                            <li>
+                                <a href="#contact">contact</a>
+                            </li>
+                        </ul>
+                   </nav>
+                   <h3> Welcome to Foobar</h3>
+                   <img class="banner" src="img/banner.png">    
+                    this is content
+                    
+                    <p> Test Paragraph</p>
+                    
+                    <a href="#contact" class="ui-shadow ui-btn ui-corner-all">Contact US</a>
+                </div>
+                
+                <footer data-role="footer">
+                <h1> This is footer  </h1>
+                </footer>
+            </div>
+            <div data-role="page" id="about"> 
+                    
+                <header data-role="header">
+                        <h1>About FooBar Web Design</h1> 
+                </header>    
+                
+                <div data-role="content">
+                    <nav data-role="navbar">
+                        <ul>
+                            <li>
+                                <a href="#home">home</a>
+                            </li>
+                            <li>
+                                <a href="#about" class="ui-btn-active">about</a>
+                            </li>
+                            <li>
+                                <a href="#contact">contact</a>
+                            </li>
+                        </ul>
+                   </nav>
+                    
+                    about content
+                </div>
+                
+                    <footer data-role="footer">
+                        <h1> About footer  </h1>
+                    </footer>
+            </div>
+            <div data-role="page" id="contact"> 
+                    
+                <header data-role="header">
+                        <h1>contact FooBar Web Design</h1> 
+                </header>    
+                
+                <div data-role="content">
+                    <nav data-role="navbar">
+                        <ul>
+                            <li>
+                                <a href="#home">home</a>
+                            </li>
+                            <li>
+                                <a href="#about">about</a>
+                            </li>
+                            <li>
+                                <a href="#contact" class="ui-btn-active">contact</a>
+                            </li>
+                        </ul>
+                   </nav>
+                    
+                    contact
+                    
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.6626944417317!2d-73.95306368459335!3d40.769442979325525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258c776f4dc97%3A0xc5e0ff830afb7319!2s500+E+77th+St%2C+New+York%2C+NY+10162!5e0!3m2!1sen!2sus!4v1453609663517" width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <h3>Location</h3>
+                    <ul>
+                        <li><strong>Foobar Web Design</strong></li>
+                        <li>address info</li>
+                        <li>Email address</li>
+                    </ul>
+                </div>
+                
+                    <footer data-role="footer">
+                        <h1> contact footer  </h1>
+                    </footer>
+            </div>
+           
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile.js"></script>
+    </body>
+</html>
